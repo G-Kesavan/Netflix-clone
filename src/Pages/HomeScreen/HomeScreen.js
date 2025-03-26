@@ -1,9 +1,10 @@
 import React from 'react'
-
+import './HomeScreen.css'
+import {Navber} from '../../Components/Navbar/Navber';
 const HomeScreen = () => {
   return (
-    <div>
-      <h1>HomeScreen</h1>
+    <div className='HomeScreen'>
+      <Navber />
     </div>
   )
 }

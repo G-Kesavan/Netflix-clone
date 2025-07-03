@@ -1,0 +1,41 @@
+.banner{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.banner-contents{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: visible;
+}
+
+.banner-btns{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.banner-btn{
+    height: 40px;
+    width: 80px;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: 600;
+    border: 1px black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.banner-description{
+    font-size: 20px;
+}

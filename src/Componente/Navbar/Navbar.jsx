@@ -1,5 +1,6 @@
 import React, { useEffect, useState} from 'react'
 import './Navbar.css'
+import { Link } from 'react-router-dom'
 
 const Navber = () => {
 
@@ -24,8 +25,20 @@ console.log(show)
   return (
     <nav className={`nav ${show && 'nav-black'}`}>
         <div className="nav-contents">
-          <img className='nav-icon logo' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAxZZAHvodR-TFwFwcvH18RRtMGeJl8pihg&s" alt="logo" />
-          <img className='nav-icon avatar' src="https://loodibee.com/wp-content/uploads/Netflix-avatar-7.png" alt="avatar" />
+          <Link to='/'>
+            <img 
+              className='nav-icon logo' 
+              src="/netflix-logo.png" 
+              alt="logo" 
+            />
+          </Link>
+          <Link to='/profile'>
+            <img 
+              className='nav-icon avatar' 
+              src="https://loodibee.com/wp-content/uploads/Netflix-avatar-7.png" 
+              alt="avatar" 
+            />
+          </Link>
         </div>
     </nav>
   )

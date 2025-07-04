@@ -8,7 +8,7 @@ import axios from '../../API/axios'
 
 const HomeScreen = () => {
   return (
-    <div>
+    <div className='HomeScreen'>
       <Navber/>
       <Banner/>
       <Row

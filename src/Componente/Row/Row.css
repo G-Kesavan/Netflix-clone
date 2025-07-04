@@ -1,5 +1,36 @@
-.row-posters img{
+.row{
+    height: auto;
+    width: 100%;
+}
+
+.row h2{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.row-posters{
+    height: auto;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;
+    scrollbar-width: none;
+    --webkit-scrollbar-width: none;
+}
+
+.row-poster{
     height: 100px ;
     width: auto;
-    overflow: hidden;
+    object-fit: contain;
+    border-radius: 10px;
+    margin: 5px 0px 5px 10px;
+    transition: all 0.2s;
+}
+.row-poster:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.row-posterLarge{
+    height: 160px;
 }

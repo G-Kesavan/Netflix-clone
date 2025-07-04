@@ -1,17 +1,20 @@
 import React from 'react'
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import HomeScreen from './Pages/Home/HomeScreen.jsx'
+import HomeScreen from './Pages/HomeScreen/HomeScreen.jsx'
+import LoginScreen from './Pages/LoginScreen/LoginScreen.jsx'
+import ProfileScreen from './Pages/ProfileScreen/ProfileScreen.jsx'
 
 const App = () => {
-  const user='ok'
+  const user=null
   return (
     <div>
       <Router>
         {!user ? (
-          <h1>login screen</h1>
+          <LoginScreen/>
         ):(
           <Routes>
             <Route path='/' element={<HomeScreen/>}/>
+            <Route path='/profile' element={<ProfileScreen/>}/>
           </Routes>
         )
         }

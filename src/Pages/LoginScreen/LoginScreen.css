@@ -1,0 +1,59 @@
+.LoginScreen{
+    background: url(https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.login-nav{
+    height: 15vh;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    position: relative;
+}
+.logo{
+    height: 40%;
+    width: 100px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.login-btn{
+    height: 40%;
+    width: auto;
+    padding: 0px 10px 0px 10px;
+    border-radius: 7px;
+    margin-right: 15px;
+    display: flex;
+    background-color: orangered;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    border: 1px;
+    margin-top: 15px;
+    z-index: 2;
+}
+.login-gredient{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 7vh;
+    left: 0;
+    background-image: linear-gradient(180deg,transparent,black);
+    background-color: transparent;
+    z-index: 1;
+}
+.login-body{
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}

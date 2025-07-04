@@ -1,11 +1,11 @@
 .nav{
     position: fixed;
     top: 0;
-    height: 10vh;
+    height: 8vh;
     width: 100%;
     z-index: 10;
     display: flex;
-    transition: all ease 0.5s;
+    transition: all linear 0.5s;
 }
 .nav-contents{
     display: flex;
@@ -13,21 +13,32 @@
     width: 100%;
     height: 100%;
     align-items: center;
+    overflow: hidden;
+}
+.nav-contents a{
+    height: 70%;
+    overflow: hidden;
 }
 .nav-icon{
     display: flex;
-    height: 60%;
+    height: 100%;
     width: auto;
+    object-fit:cover;
+    object-position: center;
+    border: 1px transparent solid;
     overflow: hidden;
-    object-fit: contain;
 }
 
 .logo{
-    padding-left: 20px;
+    width: 100px;
+    margin-left: 15px;
+    background-color:transparent;
+    color: transparent;
 }
 
 .avatar{
-    padding-right: 20px;
+    margin-right: 15px;
+    border-radius: 30%;
 }
 .nav-black{
     background-color: black;

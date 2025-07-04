@@ -5,7 +5,7 @@ import './Row.css'
 
 const Row = ({title,fetchURL,isLarge}) => {
 
-const baseURL = "https://image.tmdb.org/t/p/original/";
+const baseURL = "https://image.tmdb.org/t/p/original";
 const [movie, setMovie] = useState([])
 
 useEffect(() => {
@@ -19,21 +19,19 @@ useEffect(() => {
 
 console.log(movie)
   return (
-    <div>
+    <div className='row'>
         <h2>{title}</h2>
         <div className="row-posters">
-            {movie.map((movie)=>
+            {movie.map((movie)=>(
               (isLarge && movie.poster_path)||
-              (!isLarge && movie.backdrop_path)&&
+              (!isLarge && movie.backdrop_path)
+            )&&
               (<img 
-                    key={movie.id} 
-
-                    className={`row-poster ${isLarge && 'row__posterLarge'}`}
-
-                    src={`${baseURL}${isLarge ? movie.poster_path: movie.backdrop_path}`}
-
-                    alt='photo'
-                />)
+                  key={movie.id} 
+                  className={`row-poster ${isLarge && 'row-posterLarge'}`}
+                  src={`${baseURL}${isLarge ? movie.poster_path:movie.backdrop_path}`}
+                  alt='photo'
+              />)
             )}
         </div>
     </div>

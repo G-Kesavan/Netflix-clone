@@ -35,11 +35,12 @@ const trancate = (string,n)=>{
             </h1>
             <div className="banner-btns">
                 <button className="btn-play banner-btn">Play</button>
-                <button className="btn-mylis banner-btn">My list</button>
+                <button className="btn-mylis banner-btn">My List</button>
             </div>
             <p className="banner-description">
                 {trancate(movie?.overview,150)}
             </p>
+            <div className="background-fade"></div>
         </div>
     </header>
   )

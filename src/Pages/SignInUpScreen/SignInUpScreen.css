@@ -1,0 +1,108 @@
+.SignInUpScreen{
+    background: url(https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.SignInUpScreen-nav{
+    height: 10vh;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    position: relative;
+}
+.logo{
+    height: 40%;
+    width: 100px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 15px;
+    margin-top: 15px;
+    z-index: 2;
+}
+.sign-btn{
+    height: 40%;
+    width: auto;
+    padding: 0px 10px 0px 10px;
+    border-radius: 7px;
+    margin-right: 15px;
+    display: flex;
+    background-color: rgb(228, 7, 7);
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    border: 1px;
+    margin-top: 15px;
+    z-index: 2;
+}
+.SignInUpScreen-nav-gredient{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    left: 0;
+    background-image: linear-gradient(180deg,black,transparent);
+    background-color: transparent;
+    z-index: 1;
+}
+.SignInUpScreen-body{
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.SignInUpScreen-body h1,.SignInUpScreen-body h2,.SignInUpScreen-body h3{
+    color: white;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.SignInUpScreen-body h2{
+    padding: 20px;
+    font-weight: 400;
+    font-size: calc(18px + 0.3vw);
+}
+
+
+.SignInUpScreen h3{
+    font-weight: 300;
+    font-size: calc(14px + 0.3vw);
+}
+
+.SignInUpScreen-input{
+    padding: 10px;
+    height: 50px;
+    display: flex;
+}
+.SignInUpScreen-input form{
+    height: 100%;
+    overflow: hidden;
+}
+
+.input-email{
+    height: 50px;
+    padding-left: 20px;
+    border: 0;
+    width: 300px;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+}
+.getStart-btn{
+    height: 51px;
+    border: 0;
+    width: 100px;
+    background-color: rgb(228, 7, 7);
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    font-weight: 600;
+}

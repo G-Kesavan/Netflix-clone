@@ -27,7 +27,7 @@ console.log(show)
         <div className="nav-contents">
           <Link to='/'>
             <img 
-              className='nav-icon logo' 
+              className='nav-icon nav-logo' 
               src="/netflix-logo.png" 
               alt="logo" 
             />

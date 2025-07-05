@@ -1,0 +1,59 @@
+.SignInUp{
+    height: auto;
+    width: auto;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+
+}
+.SignInUp form{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: max-content;
+    height: auto;
+    overflow: hidden;
+}
+.SignInUp-email{
+    height: 40px;
+    min-width: 200px;
+    width: calc(150px + 8vw);
+    padding-left: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px;
+}
+.SignInUp-password{
+    height: 40px;
+    min-width: 200px;
+    width: calc(150px + 8vw);
+    padding-left: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px;
+}
+.signIn-btn{
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    border: 0px;
+    background-color: rgb(228, 7, 7);
+    color: white;
+    font-weight: 600;
+    font-size: calc(14px + 0.3vh);
+    border-radius: 5px;
+    outline: none;
+    border: 1px;
+}
+.signUp-message{
+    color: rgba(255, 255, 255, 0.699);
+}
+.signUp-message a{
+    text-decoration: none;
+    color: white;
+    line-height: 130%;
+}

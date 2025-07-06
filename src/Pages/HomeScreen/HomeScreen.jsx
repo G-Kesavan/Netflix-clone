@@ -1,10 +1,8 @@
-import React from 'react'
 import './HomeScreen.css'
 import Navber from '../../Componente/Navbar/Navbar'
 import Banner from '../../Componente/Banner/Banner'
 import Row from '../../Componente/Row/Row'
 import Request from '../../API/request'
-import axios from '../../API/axios'
 
 const HomeScreen = () => {
   return (

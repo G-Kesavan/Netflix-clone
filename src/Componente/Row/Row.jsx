@@ -17,7 +17,6 @@ useEffect(() => {
     fetchData()   
 }, [fetchURL])
 
-console.log(movie)
   return (
     <div className='row'>
         <h2>{title}</h2>

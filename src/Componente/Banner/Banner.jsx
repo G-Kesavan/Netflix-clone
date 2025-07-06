@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import {useState,useEffect} from 'react'
 import './Banner.css'
 import Request from '../../API/request'
 import axios from '../../API/axios'
@@ -34,8 +34,8 @@ const trancate = (string,n)=>{
                 {movie.title || movie?.name ||movie?.original_name}
             </h1>
             <div className="banner-btns">
-                <button className="btn-play banner-btn">Play</button>
-                <button className="btn-mylis banner-btn">My List</button>
+                <button className="banner-btn">Play</button>
+                <button className="banner-btn">My List</button>
             </div>
             <p className="banner-description">
                 {trancate(movie?.overview,150)}

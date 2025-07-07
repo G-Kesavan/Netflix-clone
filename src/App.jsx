@@ -4,7 +4,7 @@ import LoginScreen from './Pages/LoginScreen/LoginScreen.jsx'
 import ProfileScreen from './Pages/ProfileScreen/ProfileScreen.jsx'
 import { useDispatch, useSelector } from 'react-redux'
 import { login, logout, selectUser } from './features/userSlice.js'
-import react,{ useEffect } from 'react'
+import { useEffect } from 'react'
 import { onAuthStateChanged } from 'firebase/auth'
 import { auth } from './firebase.jsx'
 

@@ -42,8 +42,9 @@
     flex-direction: column;
     width: auto;
 }
-.ProfileScreen-details strong{
+.ProfileScreen-details marquee{
     margin-bottom: 5px;
+    line-height: 135%;
 }
 .ProfileScreen-plans h3{
     margin-bottom: 5px;

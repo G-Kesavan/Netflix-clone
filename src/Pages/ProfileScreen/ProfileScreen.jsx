@@ -21,7 +21,7 @@ const ProfileScreen = () => {
             alt="profile" 
           />
           <div className="ProfileScreen-details">
-            <strong>{user.email}</strong>
+            <marquee>{user.email}</marquee>
             <div className="ProfileScreen-plans">
               <h3>Plans :</h3>
               <h4 className="plan">Basic 720p 199$ 1month</h4>

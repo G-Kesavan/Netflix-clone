@@ -95,7 +95,9 @@
     height: 50px;
     padding-left: 20px;
     border: 0;
-    width: 300px;
+    min-width: 100px;
+    width: calc(100px + 9vw);
+    max-width: 300px;
     border-radius: 5px 0px 0px 5px;
     outline: none;
 }

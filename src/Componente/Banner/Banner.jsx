@@ -26,8 +26,7 @@ const trancate = (string,n)=>{
   return (
     <header className="banner" style={{
         backgroundImage:`url("https://image.tmdb.org/t/p/original/${movie.backdrop_path}")`,
-        backgroundSize:'cover',
-        backgroundPosition:'center center'
+        
     }}>
         <div className="banner-contents">
             <h1 className='banner-title'>
